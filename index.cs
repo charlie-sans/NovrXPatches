@@ -26,7 +26,10 @@ namespace NovrX
         public override string Link => "your mom"; // this line is optional and can be omitted
 
         private static bool _first_trigger = false;
-
+        public static void log(string msg)
+        {
+            Msg(msg);
+        }
         public override void OnEngineInit()
         {
             Harmony harmony = new Harmony("com.NovrX.initmodpluginthing");
