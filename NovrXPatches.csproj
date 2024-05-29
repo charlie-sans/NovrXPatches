@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-	  <Targetlangversion>12</Targetlangversion>
+	  <TargetFramework>net472</TargetFramework>
+	  <LangVersion>10</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -17,211 +17,103 @@
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\rml_libs\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="AssimpNet">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\AssimpNet.dll</HintPath>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="BaseX">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\BaseX.dll</HintPath>
+    <Reference Include="AsyncIO">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\AsyncIO.dll</HintPath>
     </Reference>
-    <Reference Include="Ben.Demystifier">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Ben.Demystifier.dll</HintPath>
+    <Reference Include="DiscordGameSDKWrapper">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\DiscordGameSDKWrapper.dll</HintPath>
     </Reference>
-    <Reference Include="BepuPhysics">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\BepuPhysics.dll</HintPath>
+    <Reference Include="Elements.Assets">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Elements.Assets.dll</HintPath>
     </Reference>
-    <Reference Include="BepuUtilities">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\BepuUtilities.dll</HintPath>
+    <Reference Include="Elements.Core">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Elements.Core.dll</HintPath>
     </Reference>
-    <Reference Include="CloudX.Shared">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CloudX.Shared.dll</HintPath>
+    <Reference Include="Elements.Quantity">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Elements.Quantity.dll</HintPath>
     </Reference>
-    <Reference Include="CodeX">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CodeX.dll</HintPath>
-    </Reference>
-    <Reference Include="CommandX">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CommandX.dll</HintPath>
-    </Reference>
-    <Reference Include="Compressonator.NET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Compressonator.NET.dll</HintPath>
-    </Reference>
-    <Reference Include="CortexAccess">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CortexAccess.dll</HintPath>
-    </Reference>
-    <Reference Include="CortexInterface">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CortexInterface.dll</HintPath>
-    </Reference>
-    <Reference Include="crunch.NET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\crunch.NET.dll</HintPath>
-    </Reference>
-    <Reference Include="CSCore">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CSCore.dll</HintPath>
-    </Reference>
-    <Reference Include="CUETools.Codecs">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CUETools.Codecs.dll</HintPath>
-    </Reference>
-    <Reference Include="CUETools.Codecs.FLAKE">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\CUETools.Codecs.FLAKE.dll</HintPath>
+    <Reference Include="Enums.NET">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Enums.NET.dll</HintPath>
     </Reference>
     <Reference Include="FreeImageNET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\FreeImageNET.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\FreeImageNET.dll</HintPath>
     </Reference>
     <Reference Include="FrooxEngine">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\FrooxEngine\FrooxEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\FrooxEngine.dll</HintPath>
     </Reference>
-    <Reference Include="Graph3D.Vrml">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Graph3D.Vrml.dll</HintPath>
+    <Reference Include="FrooxEngine.Commands">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\FrooxEngine.Commands.dll</HintPath>
     </Reference>
-    <Reference Include="Jeffijoe.MessageFormat">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Jeffijoe.MessageFormat.dll</HintPath>
+    <Reference Include="FrooxEngine.Store">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\FrooxEngine.Store.dll</HintPath>
     </Reference>
-    <Reference Include="JM.LinqFaster">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\JM.LinqFaster.dll</HintPath>
+    <Reference Include="FrooxEngine.Weaver">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\FrooxEngine.Weaver.dll</HintPath>
     </Reference>
-    <Reference Include="laszip.net">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\laszip.net.dll</HintPath>
-    </Reference>
-    <Reference Include="LiteDB">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\LiteDB.dll</HintPath>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="LiteNetLib">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\LiteNetLib.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\LiteNetLib.dll</HintPath>
     </Reference>
     <Reference Include="LZ4">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\LZ4.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\LZ4.dll</HintPath>
     </Reference>
     <Reference Include="LZMA">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\LZMA.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\LZMA.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    <Reference Include="NovrXCore">
+      <HintPath>..\NovrXCore\bin\Debug\net6.0\NovrXCore.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    <Reference Include="NovrXPatches">
+      <HintPath>..\NovrXCore\bin\Debug\net6.0\NovrXPatches.dll</HintPath>
     </Reference>
-    <Reference Include="Mikktspace.NET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Mikktspace.NET.dll</HintPath>
+    <Reference Include="ProtoFlux.Core">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\ProtoFlux.Core.dll</HintPath>
     </Reference>
-    <Reference Include="MimeDetective">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\MimeDetective.dll</HintPath>
+    <Reference Include="ProtoFlux.Nodes.Core">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\ProtoFlux.Nodes.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Mono.Cecil.dll</HintPath>
+    <Reference Include="ProtoFlux.Nodes.FrooxEngine">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\ProtoFlux.Nodes.FrooxEngine.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil.Pdb">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Mono.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil.Rocks">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Mono.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Msdfgen.NET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Msdfgen.NET.dll</HintPath>
-    </Reference>
-    <Reference Include="NeosModLoader">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\NeosVR\Libraries\NeosModLoader.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json.Bson">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Newtonsoft.Json.Bson.dll</HintPath>
-    </Reference>
-    <Reference Include="NLayer">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\NLayer.dll</HintPath>
-    </Reference>
-    <Reference Include="NVorbis">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\NVorbis.dll</HintPath>
-    </Reference>
-    <Reference Include="NYoutubeDL">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\NYoutubeDL.dll</HintPath>
-    </Reference>
-    <Reference Include="obs-websocket-dotnet">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\obs-websocket-dotnet.dll</HintPath>
-    </Reference>
-    <Reference Include="Octokit">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Octokit.dll</HintPath>
-    </Reference>
-    <Reference Include="OggVorbisEncoder">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\OggVorbisEncoder.dll</HintPath>
-    </Reference>
-    <Reference Include="Otp.NET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Otp.NET.dll</HintPath>
-    </Reference>
-    <Reference Include="POpusCodec">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\POpusCodec.dll</HintPath>
-    </Reference>
-    <Reference Include="PostX">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\PostX.dll</HintPath>
+    <Reference Include="ProtoFluxBindings">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\ProtoFluxBindings.dll</HintPath>
     </Reference>
     <Reference Include="QRCoder">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\QRCoder.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\QRCoder.dll</HintPath>
     </Reference>
     <Reference Include="QuantityX">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\QuantityX.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\QuantityX.dll</HintPath>
     </Reference>
-    <Reference Include="RNNoise.NET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\RNNoise.NET.dll</HintPath>
+    <Reference Include="ResoniteModLoader">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Libraries\ResoniteModLoader.dll</HintPath>
     </Reference>
-    <Reference Include="SharpFont">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\SharpFont.dll</HintPath>
+    <Reference Include="Rug.Osc">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Rug.Osc.dll</HintPath>
     </Reference>
-    <Reference Include="SignalR.Strong">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\SignalR.Strong.dll</HintPath>
+    <Reference Include="SevenZip">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\SevenZip.dll</HintPath>
     </Reference>
-    <Reference Include="Steamworks.NET">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\Steamworks.NET.dll</HintPath>
+    <Reference Include="SharpDX">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\SharpDX.dll</HintPath>
     </Reference>
-    <Reference Include="SubtitlesParser">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\SubtitlesParser.dll</HintPath>
+    <Reference Include="UnityFrooxEngineRunner">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\UnityFrooxEngineRunner.dll</HintPath>
     </Reference>
-    <Reference Include="SuperSocket.ClientEngine">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\SuperSocket.ClientEngine.dll</HintPath>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="TwitchLib.Api">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.dll</HintPath>
+    <Reference Include="websocket-sharp">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\websocket-sharp.dll</HintPath>
     </Reference>
-    <Reference Include="TwitchLib.Api.Core">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Api.Core.Enums">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.Core.Enums.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Api.Core.Interfaces">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.Core.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Api.Core.Models">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.Core.Models.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Api.Helix">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.Helix.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Api.Helix.Models">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.Helix.Models.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Api.V5">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.V5.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Api.V5.Models">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Api.V5.Models.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Client">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Client.Enums">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Client.Enums.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Client.Models">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Client.Models.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.Communication">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.Communication.dll</HintPath>
-    </Reference>
-    <Reference Include="TwitchLib.PubSub">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\TwitchLib.PubSub.dll</HintPath>
-    </Reference>
-    <Reference Include="WebSocket4Net">
-      <HintPath>..\..\..\OneDrive\Desktop\NeosReborn\Assets\NEOS\NovrXmodloader\NeosModLoader\bin\Debug\net462\WebSocket4Net.dll</HintPath>
+    <Reference Include="Websocket.Client">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Resonite\Resonite_Data\Managed\Websocket.Client.dll</HintPath>
     </Reference>
   </ItemGroup>
 

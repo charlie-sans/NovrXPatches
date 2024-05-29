@@ -1,57 +1,33 @@
-﻿using HarmonyLib; // HarmonyLib comes included with a NeosModLoader install
-using NovrX;
-using System;
-using System.Reflection;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using FrooxEngine;
-using FrooxEngine.LogiX;
-using FrooxEngine.Tutorials;
-using FrooxEngine.CommonAvatar;
-using BaseX;
-using CloudX;
-using CodeX;
-using CommandX;
-using PostX;
 using QuantityX;
-using NeosModLoader;
-namespace NovrX
+using SharpDX;
+using HarmonyLib;
+using Leap;
+using ResoniteModLoader;
+using NovrXCore;
+namespace NovrXPatches
 {
-    public class NovrXinitClass : NeosMod
+    // welcome to NovrX's main class! this is where the magic happens!
+
+    // stuff gets initialized here, and the mod gets loaded into the game.
+    public class Init : ResoniteMod
     {
-
-
-
-        public override string Name => "NovrXInitPlugin";
-        public override string Author => "charlie-sans";
-        public override string Version => "1.0.0";
-        public override string Link => "your mom"; // this line is optional and can be omitted
-
-        private static bool _first_trigger = false;
-        public static void log(string msg)
-        {
-            Msg(msg);
-        }
+        public override string Name => "Novrx";
+        public override string Author => "Valhala/OpenStudio";
+        public override string Version => "0.1.0";
+        public override string Link => "https://github.com/charlie-sans/novrx";
         public override void OnEngineInit()
         {
-            Harmony harmony = new Harmony("com.NovrX.initmodpluginthing");
-            // do whatever LibHarmony patching you need
-            harmony.PatchAll();
-            for (int i = 0; i < 10; i++)
-            {
-                {
-                    Msg("I'M LOADED DAMMIT");
-                }
-                //Debug("a debug log");
-                //Msg("a regular log");
-                //Warn("a warn log");
-                //Error("an error log");
-            }
-            //[HarmonyPatch(typeof(NovrXinitClass))]
-            //public override 
-            //{
-
-            //}
-
-
+            Maow.log("maow");
+            Harmony harmony = new Harmony("NovrX.maow.com.au");
+            Maow.Init(harmony);
+            Start_Plugin_patch.init(); 
+           
         }
     }
 }
